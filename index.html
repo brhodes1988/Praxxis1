@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Translator</h1>
+        <textarea id="inputText" placeholder="Enter English text here..."></textarea>
+        <button onclick="translateText()">Translate</button>
+        <div id="outputText"></div>
+        
+        <h2>Reverse Translation</h2>
+        <textarea id="inputTranslatedText" placeholder="Enter translated text here..."></textarea>
+        <button onclick="reverseTranslateText()">Reverse Translate</button>
+        <div id="outputEnglishText"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
